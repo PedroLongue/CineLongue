@@ -1,9 +1,10 @@
 #navbar {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
     align-items: center;
     padding: 15px;
-    background: #413369;
+    /* background: #8f0404;; */
 }
 
 #navbar > h2 > a{

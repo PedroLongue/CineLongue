@@ -1,0 +1,35 @@
+.movies-container {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: center;
+    gap: 20px;
+}
+
+.title,
+.movie-card-title {
+    color: #C2C2C2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin: 30px;
+}
+
+.movie-card-title {
+    font-size: 16px;
+    margin: 10px 0px;
+    text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+    .movies-container {
+        grid-template-columns: repeat(2, max-content);
+    }
+}
+@media screen and (max-width: 660px) {
+    .movies-container {
+        grid-template-columns: repeat(1, max-content);
+    }
+}
